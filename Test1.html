@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        .header{
+            display:grid;
+            grid-template-columns: 100px auto;
+            padding:20px;
+            background-color: lightgrey;
+        }
+        .image{
+            width: 5px;
+        }
+        .iron{
+            text-align: center;
+        }
+        .main{
+            background-color: black;
+            display:flex;
+            grid-template-columns: 150px auto auto;
+            padding: 10px;
+            gap:20px;
+        }
+        .left{
+            background-color: rgb(163, 183, 219);
+            text-align:left;
+            height:600px;
+            width:200px;    
+            padding: 10px;
+        }
+        .middle{
+            width:1200px;
+            background-color: black;
+            text-align: center;
+            height:600px;
+        }
+        .right{
+            width:200px;
+            background-color: rgb(214, 206, 126);
+            text-align: center;
+            height:600px;
+        }
+        .bottom{
+            padding: 30px;
+            text-align: center;
+            background-color: blanchedalmond;
+        }
+        .img{
+            padding: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="image">
+            <img src="download.jfif" width="100px" alt="IRON HEART">
+        </div>
+        <div class="iron"><h1><b>STARK INDUSTRIES</b></h1></div>
+    </div>
+    <div class="main">
+        <div class="left">
+            <h2>Contents</h2>
+            <ul>
+                <li>Home</li>
+                <li>Lab</li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <div class="middle"><img class="img" src="images.jfif" width="200px" height="200px"></div>
+        <div class="right"><h1>About</h1>
+        <p>Stark Industries, later also known as Stark International,
+            Stark Innovations, Stark Enterprises and Stark Resilient, is a multi-national conglomerate appearing in American comic books published by Marvel Comics.</p>
+        </div>
+    </div>
+    <div class="bottom"><h3><i>Thank you, visit again!!!</i></h3></div>
+</body>
+</html>
